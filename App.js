@@ -9,10 +9,11 @@
 import React, { Component } from "react"
 import { Platform, StyleSheet, Text, View } from "react-native"
 import MockBookList from "./MockBookList"
-import BookList from "./BookList"
 import ComponentStyle from "./ComponentStyle"
 import PressDemo from "./PressDemo"
 import SimpleList from "./SimpleList"
+import BookList from "./BookList"
+import BookSectionList from "./BookSectionList"
 
 const instructions = Platform.select({
   ios: "Press Cmd+R to reload,\n" + "Cmd+D or shake for dev menu",
@@ -28,7 +29,8 @@ export default class App extends Component {
       // <ComponentStyle />
       // <PressDemo />
       // <MockBookList />
-      <BookList />
+      // <BookList />
+      <BookSectionList />
     )
   }
 }
