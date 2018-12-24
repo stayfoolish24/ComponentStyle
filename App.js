@@ -14,6 +14,8 @@ import PressDemo from "./PressDemo"
 import SimpleList from "./SimpleList"
 import BookList from "./BookList"
 import BookSectionList from "./BookSectionList"
+import FlexDemo from "./FlexDemo"
+import Mondrian from "./Mondrian"
 
 const instructions = Platform.select({
   ios: "Press Cmd+R to reload,\n" + "Cmd+D or shake for dev menu",
@@ -30,7 +32,9 @@ export default class App extends Component {
       // <PressDemo />
       // <MockBookList />
       // <BookList />
-      <BookSectionList />
+      // <BookSectionList />
+      // <FlexDemo />
+      <Mondrian />
     )
   }
 }
